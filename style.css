@@ -1,0 +1,867 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,900;1,900&family=Open+Sans:wght@300;500;600&family=Playfair+Display:wght@500;700;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@500&family=Square+Peg&family=Zen+Dots&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2;
+
+}
+ .sheet-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+.content{
+    padding: 30px 20px;
+    text-align: center;
+    width: 530px;
+}
+.content h1{
+    font-size: 60px;
+}
+.img-1{
+    position: relative;
+    width: 560px;
+    /* width: 100%; */
+}
+
+.img-1 img{
+    width: 100%;
+}
+
+.layout{
+    position: absolute;
+    top: 438px;
+    /* flex: 1;
+    z-index: 10; */
+    /* border: 2px solid black; */
+    width: 431px;
+    height: 700px;
+    background-color: white;
+}
+.img-2{
+    width: 100%;
+}
+.img-2 img{
+    width: 100%;
+}
+
+.text
+{
+    margin-top: 20px;
+    padding: 30px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    /* border: 2px solid rgb(20, 4, 170); */
+    width: 100%;
+    /* height: 235px; */
+}
+.text h5{
+    line-height: 2.25rem;
+    font-size: 20px;
+    text-align: center;
+    width: 341px;
+    height: 120px;
+    background-color: white;
+    font-weight: 600;
+}
+.text a{
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;    
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+}
+.sheet-2{
+    /* width: 526px; */
+   /*  height: 1064px; */
+    position: relative;
+    top: 550px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.con-text{
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    /* height: 660px; */
+}
+.con-text h2{
+    text-align: center;
+    width: 100%;
+    font-size: 46px;
+}
+.con-text h5{
+    margin: 20px 0 0;
+    text-align: center;
+    font-size: 22px;
+    line-height: 2rem;
+    letter-spacing: 2px;
+}
+.con-text p{
+    font-weight: 300;
+    margin: 60px 0 0;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+}
+.con-text a{
+    border: 2px solid black;
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;    
+    width: 200px;
+
+}
+
+.img-3 img{
+    width: 100%;
+
+}
+
+.sheet-3{
+    position: relative;
+    top: 667px;
+    color: white;
+    background-color: black;
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.certification-text{
+    background-color: black;
+    width: 560px;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+.certification-text h5{
+    font-size: 20px;
+    text-align: center;
+    margin: 17px 5px 0;
+    background-color: black;
+    letter-spacing: 2px;
+}
+.certification-text h2{
+    font-size: 36px;
+    text-align: center;
+    margin: 20px 5px 0;
+    background-color: black;
+    font-weight: 700;
+}
+.certification-text p{
+    font-size: 16px;
+    margin: 20px auto 0;
+    background-color: black;
+    text-align: center;
+    line-height: 1.25rem;
+    width: 340px;
+
+}
+
+.certification{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+.Healthcare{
+    width: 560px;
+    background-color: black;
+    padding: 30px 10px;
+}
+.Healthcare .health-img{
+    text-align: center;
+    background-color: black;
+}
+.Healthcare h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 9px 0;
+    text-align: center;
+    background-color: black;
+}
+.Healthcare p{
+    text-align: center;
+    margin: 20px 12px 0;
+    background-color: black;
+}
+
+.Education{ 
+    width: 560px;
+    background-color: black;
+    padding: 30px 10px;
+}
+.Education .education-img{
+    text-align: center;
+    background-color: black;
+}
+.Education h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 9px 0;
+    text-align: center;
+    background-color: black;
+}
+.Education p{
+    text-align: center;
+    margin: 20px 12px 0;
+    background-color: black;
+}
+.Government{ 
+    width: 560px;
+    background-color: black;
+    padding: 30px 10px;
+}
+.Government .govern-img{
+    text-align: center;
+    background-color: black;
+}
+.Government h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 9px 0;
+    text-align: center;
+    background-color: black;
+}
+.Government p{
+    text-align: center;
+    margin: 20px 12px 0;
+    background-color: black;
+}
+
+.Commercial{ 
+    width: 560px;
+    background-color: black;
+    padding: 30px 10px;
+}
+.Commercial .commer-img{
+    text-align: center;
+    background-color: black;
+}
+.Commercial h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 15px 9px 0;
+    text-align: center;
+    background-color: black;
+}
+.Commercial p{
+    text-align: center;
+    margin: 24px 12px 0;
+    background-color: black;
+}
+
+.Residential{ 
+    width: 560px;
+    background-color: black;
+    padding: 30px 10px;
+}
+.Residential .resident-img{
+    text-align: center;
+    background-color: black;
+}
+.Residential h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 9px 0;
+    text-align: center;
+    background-color: black;
+}
+.Residential p{
+    text-align: center;
+    margin: 20px 12px 0;
+    background-color: black;
+}
+
+.Restaurant{ 
+    width: 560px;
+    background-color: black;
+    padding: 30px 10px;
+}
+.Restaurant .restaurant-img{
+    text-align: center;
+    background-color: black;
+}
+.Restaurant h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 30px 9px 0;
+    text-align: center;
+    background-color: black;
+}
+.Restaurant p{
+    text-align: center;
+    margin: 20px 12px 0;
+    background-color: black;
+}
+
+.sheet-4{
+    position: relative;
+    top: 740px;
+}
+.containeer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conta-text{
+    text-align: center;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.conta-text h5{
+    font-size: 20px;
+    margin: 20px 0 0;
+    letter-spacing: 2px;
+}
+.conta-text p{
+    font-size: 16px;
+    margin: 20px 0 0;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.conta-text a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    margin: 20px auto;
+    width: 200px;
+    border: 2px solid black;
+    font-weight: 200;
+    text-transform: uppercase;
+    
+}
+.dez-img{
+    width: 100%;
+}
+.dez-img img{
+    width: 100%;
+}
+.eduGovern{
+    width: 100%;
+}
+.edu{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.edu h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 0;
+    letter-spacing: 2px;
+}
+.govern{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.govern h5{
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0 0;
+    letter-spacing: 2px;
+}
+
+.edu img{
+    width: 100px;
+    margin: 0 auto;
+}
+.govern img{
+    width: 100px;
+    margin: 0 auto;
+}
+
+.sheet-5{
+    position: relative;
+    top: 850px;
+}
+.black{
+    padding: 20px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.black h5{
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: black;
+}
+.black h2{
+    background-color: black;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.projects{
+    width: 100%;
+}
+.projects > div{
+    width: 100%;
+}
+.projects > div img{
+    width: 100%;
+}
+.sheet-6{
+    position: relative;
+    top: 843px;
+    background-color: white;
+     padding: 50px;
+    
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.map{
+    width: 540px;
+    padding: 20px;
+    background-color: white;
+}
+.map img{
+    width: 100%;
+}
+
+.world-team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+    padding: 20px;
+    background-color: white;
+}
+.world-team h5{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 2px;
+    background-color: white;
+}
+.world-team h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 9px 0;
+    background-color: white;
+}
+.world-team p{
+    background-color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: 30px 9px 0;
+    letter-spacing: 2px;
+}
+.world-team a{
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    padding: 10px 30px;    
+    border: 2px solid black;
+    text-align: center;
+    background-color: white;
+    width: 200px;
+    margin: 20px;
+}
+
+footer{
+    background-color: black;
+    position: relative;
+    top: 844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.address{
+    width: 540px;
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    margin: 18px;
+}
+.address h6{
+    background-color: black;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.address h5{
+    margin: 30px 0 0;
+    font-size: 20px;
+    background-color: black;
+    text-align: center;
+}
+.contactUs{
+    width: 540px;
+    background-color: black;
+    color: white;
+    padding: 30px 20px;
+    margin: 18px;
+}
+.contactUs h2{
+    background-color: black;
+    text-align: center;
+    font-size: 36px;
+}
+.contactUs p{
+    margin: 10px;
+    background-color: black;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 576px)
+{
+    .content h1{
+        font-size: 48px;
+    }
+    .content{
+        width: 360px;
+    }
+    .img-1{
+        width: 100%;
+    }
+
+    .layout{
+        width: 340px;
+        height: 600px;
+    }
+    .img-2 img{
+        width: 100%;
+    }
+    .sheet-3{
+        position: relative;
+        top: 580px;
+       
+    }
+    .certification-text{
+        width: 360px;
+    }
+    .certification > div{
+        width: 360px;
+    }
+
+    .sheet-4{
+        position: relative;
+        top:600px;
+
+    }
+    .world-team , .map{
+        width: 340px;
+    }
+    .contactUs, .address{
+        width: 340px;
+    }
+
+
+
+
+}
+@media only screen and (min-width:578px)
+{
+    .sheet-2{
+        position: relative;
+        top: 650px;
+    }
+    .con-text{
+        width: 540px;
+        /* height: 660px; */
+    }
+    .con-text h5{
+        margin: 20px 30px 0;
+    }
+
+}
+
+
+
+
+@media only screen and (min-width: 768px){
+    
+    .img-1{
+        width: 100%;
+    }
+    .layout{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        height: 315px;
+        width: 640px;
+        background-color: transparent;
+    }
+    .img-2{
+        width: 340px;
+    }
+    .img-2 img{
+        width: 300px ;
+        height: 100%;
+    }
+    .text{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        width: 100%;
+       /*  border: 2px solid red; */
+        padding: 20px 10px;
+    }
+
+    .sheet-2{
+        position: relative;
+        top: 200px;
+    }
+    .container{
+        width: 760px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        gap: 2rem; 
+
+    }
+    .con-text{
+        width: 444px;
+        height: 574px;
+        padding: 10px;
+    }
+    .img-3{
+        width: 360px;
+        height: 574px;
+        padding: 10px;
+        
+    }
+    .img-3 img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .sheet-3{
+        position: relative;
+        top: 250px;
+       
+    }
+    .certification-text{
+        width: 633px;
+    }
+    .certification-text p{
+        width: 420px;
+    }
+    .certification{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .certification > div{
+        margin: 0 auto;
+        width: 240px;
+        padding: 20px;
+    } 
+    .containeer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .eduGovern{
+        margin: 0 auto;
+        width: 100%;
+
+    }
+    .edu{
+        margin-left: 190px;
+        margin-right: auto;
+        width: 100%;
+    }
+    .govern{
+        margin-left: 190px;
+        margin-right: auto;
+        width: 100%;
+    }
+    .sheet-4{
+        position: relative;
+        top:300px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0px;
+    }
+    .sheet-5{
+        position: relative;
+        top: 400px;
+    }
+
+   .sheet-6{
+    position: relative;
+    top: 390px;
+
+   }
+   .box{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+   }
+
+   .map, .world-team{
+        width: 360px;
+    
+   }
+
+
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        top: 390px;
+    }
+
+    .contactUs, .address{
+        width: 360px;
+        
+    }
+    
+
+
+
+
+}
+@media only screen and (min-width: 830px){
+    .img-1{
+        width: 820px;
+    }
+    .img-1 img{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 991px)
+{
+    .img-1{
+        width: 989px;
+    }
+    .img-1 img {
+        width: 100%;
+    }
+
+    .layout{
+        position: absolute;
+        top: 600px;
+    }
+        
+  
+    .containeer{
+        display: flex;
+        flex-direction: row;
+    }
+    .edu{
+        margin: 0 ;
+        width: 100%;
+    }
+    .govern{
+        margin: 0;
+        width: 100%;
+    }
+    .dez-img img{
+        width: 100%;
+        height: 418px;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 0px;
+    }
+    .sheet-5{
+        position: relative;
+        top: 400px;
+    }
+    .map, .world-team{
+        width: 470px;
+    
+   }
+   .contactUs, .address{
+    width: 470px;
+    padding: 30px 60px;
+}
+.con-text{
+    width: 579px;
+}
+.img-3{
+    width: 390px;
+}
+.img-3 img{
+    width: 100%;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem; 
+
+}
+
+}
+
+@media only screen and (min-width:1200px)
+{
+    .img-1{
+        width: 1140px;
+    }
+    .img-1 img {
+        width: 100%;
+    }
+    .map, .world-team{
+        width: 570px;
+    
+   }
+   .contactUs, .address{
+    width: 570px;
+    padding: 30px 60px;
+}
+
+.certification > div{
+    width: 344px;
+}
+.certification-text{
+    width: 1003px;
+}
+.certification-text p{
+    width: 664px;
+}
+
+}
+
+
+ 
